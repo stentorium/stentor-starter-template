@@ -625,7 +625,7 @@
     stentor-constants "1.15.6"
     stentor-models "1.16.1"
 
-"@xapp/stentor-alexa@^1.13.8", "@xapp/stentor-alexa@^1.15.0":
+"@xapp/stentor-alexa@1.15.0", "@xapp/stentor-alexa@^1.15.0":
   version "1.15.0"
   resolved "https://registry.yarnpkg.com/@xapp/stentor-alexa/-/stentor-alexa-1.15.0.tgz#f2f777bef610e24eb495013d21cf741a16d81057"
   integrity sha512-okQjGulxlxkn88wIuRS7o+Sm3VaVTa8MeCVqFkCfvcU14Mbk4dj6TgGHq6e3XXJvYz2Ncpzjw74PmZIdSNx2Fw==
@@ -668,7 +668,7 @@
     "@xapp/stentor-storage" "^1.14.4"
     stentor-models "1.16.1"
 
-"@xapp/stentor-dialogflow@^1.13.8", "@xapp/stentor-dialogflow@^1.15.0":
+"@xapp/stentor-dialogflow@1.15.0", "@xapp/stentor-dialogflow@^1.15.0":
   version "1.15.0"
   resolved "https://registry.yarnpkg.com/@xapp/stentor-dialogflow/-/stentor-dialogflow-1.15.0.tgz#8aab7bc68e7017fbf6fd4291d4c449f761533555"
   integrity sha512-KZFCSlbBwP/YO9r7TNYiMgj65jEf09uP7MvY3551Ch1Y0Vk148DTbNXOKWuYHEnQ02zNHbcA2hrDNRW4iM2OWA==
@@ -1061,7 +1061,7 @@
     words-to-numbers "1.5.1"
     xmldoc "1.1.2"
 
-"@xapp/stentor@^1.13.10":
+"@xapp/stentor@1.15.0":
   version "1.15.0"
   resolved "https://registry.yarnpkg.com/@xapp/stentor/-/stentor-1.15.0.tgz#4990209ad9d848588ab9bd669e86d8c0632d022d"
   integrity sha512-/rf/SYM+PzQVrViWBx47oThaPb3t/M9nVDSGGbJAfUDvJ6ikt0KHNECf2xlciDrm4CzMseTEC/foOuQKmkj/bw==
