@@ -2,7 +2,7 @@
 require("dotenv").config();
 
 // Assistant
-import { Assistant } from "@xapp/stentor";
+import { Assistant } from "stentor";
 // Channels
 import { Alexa } from "@xapp/stentor-alexa";
 import { Dialogflow } from "@xapp/stentor-dialogflow";
