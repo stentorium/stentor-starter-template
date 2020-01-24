@@ -15,7 +15,7 @@
   "dependencies": {
     "@xapp/stentor": "1.15.0",
     "@xapp/stentor-alexa": "1.15.0",
-    "@xapp/stentor-dialogflow": "1.15.0",
+    "@xapp/stentor-dialogflow": "1.17.5",
     "@xapp/stentor-service-handler": "^1.13.8",
     "@xapp/stentor-service-user-storage": "^1.13.8",
     "aws-sdk": "2.488.0",
