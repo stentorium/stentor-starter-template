@@ -1,4 +1,4 @@
-import { AbstractHandler, Context, keyFromRequest, Request, Response } from "stentor";
+import { AbstractHandler, Context, keyFromRequest, Request } from "stentor";
 
 // 1. Rename to something that describes what the handler does like "SearchHandler"
 export class CustomHandler extends AbstractHandler {
