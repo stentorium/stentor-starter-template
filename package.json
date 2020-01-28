@@ -4,7 +4,7 @@
     "node": "10.x"
   },
   "devDependencies": {
-    "@rollup/plugin-typescript": "2.1.0",
+    "@rollup/plugin-typescript": "3.0.0",
     "@types/chai": "4.2.7",
     "@types/mocha": "5.2.7",
     "@xapp/config": "0.2.3",
