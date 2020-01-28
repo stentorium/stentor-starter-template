@@ -1,3 +1,5 @@
+![CI](https://github.com/stentorium/stentor-starter-template/workflows/CI/badge.svg?branch=master)
+
 # stentor-starter-template
 
 A starter template for 📣 stentor.
