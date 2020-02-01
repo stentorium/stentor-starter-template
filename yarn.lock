@@ -686,6 +686,28 @@
     stentor-response "1.20.11"
     stentor-utils "1.20.11"
 
+"@xapp/stentor-alexa@1.17.17":
+  version "1.17.17"
+  resolved "https://registry.yarnpkg.com/@xapp/stentor-alexa/-/stentor-alexa-1.17.17.tgz#f26902b38454a95c5a33a1290a7919baeeadeb3c"
+  integrity sha512-1AFh/WG9JDumQ5EXU4l2Pf5QQh8lVi+r3RgJ1RCLo2oDGL0+UMrBHPJ25miXdOkA4R2eOgzOvgcOGh4HKZKL8A==
+  dependencies:
+    "@xapp/patterns" "1.17.15"
+    "@xapp/stentor-interaction-model" "1.17.15"
+    "@xapp/stentor-locales" "1.17.15"
+    "@xapp/stentor-media" "1.17.15"
+    alexa-verifier "2.0.1"
+    amazon-date-parser "0.3.0"
+    ask-sdk-model "1.25.1"
+    isomorphic-fetch "2.2.1"
+    jsonpath "1.0.2"
+    lodash.intersection "4.4.0"
+    lodash.invert "4.3.0"
+    moment "2.24.0"
+    stentor-constants "1.20.9"
+    stentor-request "1.20.11"
+    stentor-response "1.20.11"
+    stentor-utils "1.20.11"
+
 "@xapp/stentor-app@1.17.15":
   version "1.17.15"
   resolved "https://registry.yarnpkg.com/@xapp/stentor-app/-/stentor-app-1.17.15.tgz#13e6fac9e76b3eabb2b124d67e9679b319c209c9"
