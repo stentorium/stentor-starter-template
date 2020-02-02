@@ -1492,10 +1492,10 @@ bespoken-jest-stare@^1.0.10:
     popper.js "^1.14.6"
     yargs "^14.2.0"
 
-bespoken-tools@2.4.24:
-  version "2.4.24"
-  resolved "https://registry.yarnpkg.com/bespoken-tools/-/bespoken-tools-2.4.24.tgz#3819539d73ca3310276dd036169f462bcaaa6f99"
-  integrity sha512-XvZMK+N6lAv5CYLjlQopObCL30vzIPNtF+jHzNKVRWUY1RUc42ld9Z9drkLAqflCvV9+PtSFn6AmrtO/NlFNng==
+bespoken-tools@2.4.34:
+  version "2.4.34"
+  resolved "https://registry.yarnpkg.com/bespoken-tools/-/bespoken-tools-2.4.34.tgz#8feccde34e3ee64fc462cae6834c4229c251fb16"
+  integrity sha512-lM0l7ppeRmoWnKScsp3jB7rol49dprmp8cCjNgVJVdSFqHb0Wu4jD0yXFodKzAHlpRV/EYyQlbpFr2FYhfZZzQ==
   dependencies:
     async "^2.0.0"
     aws-sdk "^2.130.0"
@@ -1513,7 +1513,7 @@ bespoken-tools@2.4.24:
     properties-reader "0.0.15"
     request "^2.88.0"
     request-promise-native "^1.0.5"
-    skill-testing-ml "~1.1.24"
+    skill-testing-ml "~1.1.42"
     update-notifier "^2.5.0"
     uuid "3.0.0"
     virtual-alexa "^0.7.2"
@@ -6286,10 +6286,10 @@ sisteransi@^1.0.3:
   resolved "https://registry.yarnpkg.com/sisteransi/-/sisteransi-1.0.4.tgz#386713f1ef688c7c0304dc4c0632898941cad2e3"
   integrity sha512-/ekMoM4NJ59ivGSfKapeG+FWtrmWvA1p6FBZwXrqojw90vJu8lBmrTxCMuBCydKtkaUe2zt4PlxeTKpjwMbyig==
 
-skill-testing-ml@~1.1.24:
-  version "1.1.38"
-  resolved "https://registry.yarnpkg.com/skill-testing-ml/-/skill-testing-ml-1.1.38.tgz#361b91f06751f47921d0d125c6f5b9ceead3edd7"
-  integrity sha512-35XL+nZB5a0Kh3gFqKXM2M3zbGPKVrvWfIRjB2h2nOW5uBO+N8+ulK1VNcuOPvD0PaUxdc08VwCSa8m7xfa/7Q==
+skill-testing-ml@~1.1.42:
+  version "1.1.42"
+  resolved "https://registry.yarnpkg.com/skill-testing-ml/-/skill-testing-ml-1.1.42.tgz#585fb45b095db76f3614381527859f4d9b7e386f"
+  integrity sha512-eSMMbP9xNB3Lx3QcxIN41oIhsJCnpAJLDBd46wgddEYRRDucL3gQ1SAEGJejd2dStV90BJ02UaTto8FggEJpZA==
   dependencies:
     bespoken-jest-stare "^1.0.10"
     chalk "^2.4.2"
@@ -6300,7 +6300,8 @@ skill-testing-ml@~1.1.24:
     js-yaml-bespoken "^3.11.6"
     jsonpath-bespoken "^1.0.2"
     lodash "^4.17.11"
-    virtual-alexa "^0.7.5"
+    uuid "^3.3.3"
+    virtual-alexa "^0.7.7"
     virtual-device-sdk "^1.7.0"
     virtual-google-assistant "^0.3.6"
     winston "^3.2.1"
@@ -7326,7 +7327,7 @@ uuid@3.3.2:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
   integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
 
-uuid@^3.1.0, uuid@^3.2.1, uuid@^3.3.2:
+uuid@^3.1.0, uuid@^3.2.1, uuid@^3.3.2, uuid@^3.3.3:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
@@ -7358,10 +7359,21 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-virtual-alexa@^0.7.2, virtual-alexa@^0.7.5:
+virtual-alexa@^0.7.2:
   version "0.7.5"
   resolved "https://registry.yarnpkg.com/virtual-alexa/-/virtual-alexa-0.7.5.tgz#8bd81c73dbf3fc59e02a88b38a9643fa8373c841"
   integrity sha512-lgR8UioNoHKLnKo1qIIBcm+HbZ0ZyUwfx+muFkv3RQa3ktD8jkLUQVbjKUKf5Mp8uc9A5Z1Z1+RRKdl2V3Pe0g==
+  dependencies:
+    aws-sdk "^2.402.0"
+    lodash "^4.17.15"
+    nock "^9.6.1"
+    uuid "^3.3.2"
+    virtual-core "0.1.1"
+
+virtual-alexa@^0.7.7:
+  version "0.7.7"
+  resolved "https://registry.yarnpkg.com/virtual-alexa/-/virtual-alexa-0.7.7.tgz#05114cf4354a3034821654db14ed7c4aa6123148"
+  integrity sha512-BrxTbI11ouns6KnZSPc9tbijt0n6saIlz1nG5JyGd7faXfTHyrBUtfIAJ4CCqv5ppja7IfsvSo44Z5tXHm285g==
   dependencies:
     aws-sdk "^2.402.0"
     lodash "^4.17.15"
