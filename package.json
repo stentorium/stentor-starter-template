@@ -21,7 +21,7 @@
     "@xapp/stentor-alexa": "1.18.1",
     "@xapp/stentor-dialogflow": "1.18.1",
     "@xapp/stentor-service-user-storage": "1.18.1",
-    "aws-sdk": "2.610.0",
+    "aws-sdk": "2.615.0",
     "dotenv": "8.2.0"
   },
   "scripts": {
