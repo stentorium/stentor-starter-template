@@ -1234,10 +1234,10 @@ bespoken-jest-stare@^1.0.19:
     popper.js "^1.14.6"
     yargs "^14.2.0"
 
-bespoken-tools@2.4.58:
-  version "2.4.58"
-  resolved "https://registry.yarnpkg.com/bespoken-tools/-/bespoken-tools-2.4.58.tgz#b7aacbe4f0c7ed44b5fa0571a206de4291ada0e1"
-  integrity sha512-lraBAeIMKmSu0mjcX+LKN58H4raILvNAHz+Cw6ohK0ciPYvL9t9/rMBVHtgSqar/H36HU8p+pf5P6vLUqWK3mg==
+bespoken-tools@2.4.65:
+  version "2.4.65"
+  resolved "https://registry.yarnpkg.com/bespoken-tools/-/bespoken-tools-2.4.65.tgz#8fb36ef70184f5aa604b536a678184b4a3f81e73"
+  integrity sha512-aT8V5iy7L1kj6sijO2mtnsojaUu6ZlVtSBZ7UBscENVZlX1dVFA3GXSal94BQXb8F1O3s0ZRDHfTB4XiLahTbQ==
   dependencies:
     async "^2.0.0"
     aws-sdk "^2.130.0"
@@ -1256,7 +1256,7 @@ bespoken-tools@2.4.58:
     properties-reader "0.0.15"
     request "^2.88.0"
     request-promise-native "^1.0.5"
-    skill-testing-ml "~1.2.19"
+    skill-testing-ml "~1.2.28"
     update-notifier "^2.5.0"
     uuid "3.0.0"
     virtual-alexa "^0.7.2"
@@ -5994,10 +5994,10 @@ sisteransi@^1.0.3:
   resolved "https://registry.yarnpkg.com/sisteransi/-/sisteransi-1.0.4.tgz#386713f1ef688c7c0304dc4c0632898941cad2e3"
   integrity sha512-/ekMoM4NJ59ivGSfKapeG+FWtrmWvA1p6FBZwXrqojw90vJu8lBmrTxCMuBCydKtkaUe2zt4PlxeTKpjwMbyig==
 
-skill-testing-ml@~1.2.19:
-  version "1.2.19"
-  resolved "https://registry.yarnpkg.com/skill-testing-ml/-/skill-testing-ml-1.2.19.tgz#6b65904ff42a917f3dde88a29eaa2b855c83d753"
-  integrity sha512-lqb3hnpPYdaElLUIPa8szlgzE3bU+fuBrcnZKxF5xlKwY7iGpOBV9AhLdn/LMKQgQzAPfewQYtF2xbF8ffOHOQ==
+skill-testing-ml@~1.2.28:
+  version "1.2.28"
+  resolved "https://registry.yarnpkg.com/skill-testing-ml/-/skill-testing-ml-1.2.28.tgz#f5eeccb71e764766e20368b1fb1a189cbcb857f1"
+  integrity sha512-WTKO8qZERmVyTdiiGzH8jkgIeW/zfG1/sIDIkMoZoAMfqCTBg8J9WpH7uYGF0K8kigTw5Cmy5tnCToLe6fiDOA==
   dependencies:
     bespoken-jest-stare "^1.0.19"
     chalk "^2.4.2"
@@ -6012,7 +6012,7 @@ skill-testing-ml@~1.2.19:
     lodash "^4.17.11"
     uuid "^3.3.3"
     virtual-alexa "^0.7.7"
-    virtual-device-sdk "^1.7.3"
+    virtual-device-sdk "^1.7.4"
     virtual-google-assistant "^0.3.6"
     winston "^3.2.1"
 
@@ -7171,10 +7171,20 @@ virtual-core@0.1.1:
     "@types/uuid" "^3.4.3"
     uuid "^3.2.1"
 
-virtual-device-sdk@^1.7.3, virtual-device-sdk@^1.7.3-0:
+virtual-device-sdk@^1.7.3-0:
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/virtual-device-sdk/-/virtual-device-sdk-1.7.3.tgz#aba44352f2e7fc89069ce0b7219a3214449176c5"
   integrity sha512-HxDNmIsQtbx/qrfr0/BPEXrJNHUkFQ5pOsBFgNj4BKxNOc1j1xuNekmhZ1tYuVp5oUQHjjrC5RPG0TLDTbnvZA==
+  dependencies:
+    chalk "^2.3.1"
+    dotenv "^4.0.0"
+    http-proxy-agent "^4.0.1"
+    retry "^0.12.0"
+
+virtual-device-sdk@^1.7.4:
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/virtual-device-sdk/-/virtual-device-sdk-1.7.4.tgz#18d3811f4219059cea6a115ce3d297d5c7e343d3"
+  integrity sha512-wLKVzEWKhwW2wxePB4hOBVdbYvuJGpHO/KVcquzHQ/OB+1QIwy7SDOQQSx+g1Z8f7O3PE5TLUEpV6U8G4a6UfA==
   dependencies:
     chalk "^2.3.1"
     dotenv "^4.0.0"
