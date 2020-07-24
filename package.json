@@ -5,7 +5,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "3.1.1",
-    "@types/chai": "4.2.11",
+    "@types/chai": "4.2.12",
     "@types/mocha": "7.0.2",
     "@xapp/config": "0.2.3",
     "bespoken-tools": "2.4.72",
