@@ -11,7 +11,7 @@
     "bespoken-tools": "2.4.94",
     "chai": "4.3.4",
     "mocha": "8.4.0",
-    "ts-node": "9.1.1",
+    "ts-node": "10.1.0",
     "tslib": "2.3.0",
     "rollup": "2.53.2",
     "typescript": "4.3.5"
