@@ -17,10 +17,10 @@
     "typescript": "4.3.5"
   },
   "dependencies": {
-    "stentor": "1.22.5",
-    "@xapp/stentor-alexa": "1.18.27",
-    "@xapp/stentor-dialogflow": "1.18.27",
-    "@xapp/stentor-service-user-storage": "1.18.27",
+    "stentor": "1.42.36",
+    "@xapp/stentor-alexa": "1.33.30",
+    "@xapp/stentor-dialogflow": "1.33.30",
+    "@xapp/stentor-service-user-storage": "1.33.30",
     "aws-sdk": "2.615.0",
     "dotenv": "10.0.0"
   },
