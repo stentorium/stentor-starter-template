@@ -1264,10 +1264,10 @@ bespoken-jest-stare@^1.0.20:
     popper.js "^1.14.6"
     yargs "^14.2.0"
 
-bespoken-tools@2.4.94:
-  version "2.4.94"
-  resolved "https://registry.yarnpkg.com/bespoken-tools/-/bespoken-tools-2.4.94.tgz#ace2882d814aff48789fc0f38ff153b488c5b8ed"
-  integrity sha512-kPItBpvBJ/emlo1dkzozN7cy3+2C7d7ZvLN8UuenPJbO83yOSi1c4sA/vyBUXmduWNhF8x25V4K5jdqaUAjhmQ==
+bespoken-tools@2.4.100:
+  version "2.4.100"
+  resolved "https://registry.yarnpkg.com/bespoken-tools/-/bespoken-tools-2.4.100.tgz#56f524e4a0e061c51270a1f3a940d9d83b91882a"
+  integrity sha512-vQw0mPpNAFsgQkPQIFM1waisbLQSsGCMqYey+w8Ef6fD7+yst+K2ohVuBlHvJ9xij3OZmalHBs5Lmp1C/vXYUQ==
   dependencies:
     async "^2.0.0"
     aws-sdk "^2.130.0"
@@ -1286,7 +1286,7 @@ bespoken-tools@2.4.94:
     properties-reader "0.0.15"
     request "^2.88.0"
     request-promise-native "^1.0.5"
-    skill-testing-ml "~1.2.60"
+    skill-testing-ml "~1.2.69"
     update-notifier "^2.5.0"
     uuid "3.0.0"
     virtual-alexa "^0.7.2"
@@ -6186,10 +6186,10 @@ sisteransi@^1.0.3:
   resolved "https://registry.yarnpkg.com/sisteransi/-/sisteransi-1.0.4.tgz#386713f1ef688c7c0304dc4c0632898941cad2e3"
   integrity sha512-/ekMoM4NJ59ivGSfKapeG+FWtrmWvA1p6FBZwXrqojw90vJu8lBmrTxCMuBCydKtkaUe2zt4PlxeTKpjwMbyig==
 
-skill-testing-ml@~1.2.60:
-  version "1.2.65"
-  resolved "https://registry.yarnpkg.com/skill-testing-ml/-/skill-testing-ml-1.2.65.tgz#a0e6c32b848c06b8f32873a1cc39605211ff06d9"
-  integrity sha512-yQ87Mt5PEcD4lEK5DewNPBHNAl+PovButerOfEozQtmeO81fSUjUb++ZbZSrPQIagHHtlyo/IomnX8Ig9qjc6A==
+skill-testing-ml@~1.2.69:
+  version "1.2.69"
+  resolved "https://registry.yarnpkg.com/skill-testing-ml/-/skill-testing-ml-1.2.69.tgz#677f8ca67f84cfd159c76adbb7ba682090a38b1c"
+  integrity sha512-2PNcb+mU4KXjg5PjG5oYxgMDrUILqRqdOgibmIKcTlzBb/yBznVxZwPSBHLTUQEEzuZvvKOOGjWpTQZ+cNrQAw==
   dependencies:
     bespoken-jest-stare "^1.0.20"
     chalk "^2.4.2"
