@@ -6,11 +6,11 @@
   "devDependencies": {
     "@rollup/plugin-typescript": "3.1.1",
     "@types/chai": "4.2.21",
-    "@types/mocha": "8.2.3",
+    "@types/mocha": "9.1.1",
     "@xapp/config": "0.2.3",
     "bespoken-tools": "2.6.0",
     "chai": "4.3.4",
-    "mocha": "8.4.0",
+    "mocha": "9.2.2",
     "ts-node": "9.1.1",
     "tslib": "2.3.1",
     "rollup": "2.60.0",
